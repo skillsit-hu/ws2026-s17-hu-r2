@@ -1,0 +1,17 @@
+{
+  "id": "9ktmai1klkr",
+  "v": 1,
+  "name": "ws2026-s17-hu-r2",
+  "variables": [
+    {
+      "key": "apiBase",
+      "value": "https://competitor-YYYY-module-a.sudsy.hu/api/v1",
+      "secret": false
+    },
+    {
+      "key": "token",
+      "value": "",
+      "secret": false
+    }
+  ]
+}
