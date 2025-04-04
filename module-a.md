@@ -107,7 +107,7 @@ Response body:
 }
 ```
 
-Please return **all** validation errors. A maximum of one validation per field will be displayed. **Error messages are up to you**, but please be descriptive enough so that the error is obvious.
+Please return **all** validation errors. Only one validation error per field will be displayed at a time. **Error messages are up to you**, but please be descriptive enough so that the error is obvious.
 
 ### 1.6 Missing or invalid auth header
 
@@ -509,7 +509,7 @@ Response body:
 ### 2.13 GET /locations/:slug
 
 Returns detailed information about a location.  
-Sort the `amenities` by key.  
+Sort the `amenities` object alphabetically by key.  
 In the machines array, washers should be listed before dryers, then sorted by `size_in_kg`.
 
 **Success Response:**  
