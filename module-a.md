@@ -282,7 +282,7 @@ Response body:
 ### 2.6 POST /admin/location
 
 Creates a new location.  
-Generates the `slug` by slugifying the name. If a location with the generated slug already exists, a `5` character random string is appended to the end.
+Generates the `slug` by slugifying the name. If a location with the generated slug already exists, a `5` character random string is appended to the end. The `amenities` is stored as a JSON object.
 
 **Request Body:**
 
