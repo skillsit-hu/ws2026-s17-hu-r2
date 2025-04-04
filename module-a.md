@@ -1,6 +1,6 @@
 # Module A - Backend
 
-In this module, you will create multiple **API endpoints** accessible at the base URL: `https://competitor-YYYY-module-a.sudsy.hu/api/v1` where `YYYY` represents your assigned four-digit PIN. The backend will serve data to both:
+In this module, you will create multiple **API endpoints** accessible at the base URL: `https://module-a-Y.sudsy.com/api/v1` where `Y` is your workstation number. The backend will serve data to both:
 
 - The **admin application** used by employees.
 - The public-facing **web application** showcasing Sudsy’s services and locations.
@@ -10,8 +10,8 @@ Your backend should listen on port `80`. In the deployed environment, our server
 **Database Information**
 
 - The backend uses a **MySQL** database for data storage.
-- It can be accessed at `db.sudsy.hu`, using port `3306` with the provided credentials.
-- The database name follows the format: `competitor-YYYY`, where `YYYY` is your assigned four-digit PIN.
+- It can be accessed at `db.sudsy.com`, using port `3306` with the provided credentials.
+- The database name follows the format: `competitor-Y`, where `Y` is your workstation number.
 
 The database is currently empty. Use the given SQL dump in [`assets/module-a/db.sql`]('./assets/module-a/db.sql) to import the data.
 
@@ -58,7 +58,7 @@ The [collection](./assets/module-a/sudsy-api-collection.json) and [environment](
 ### 1.2 Fully functional backend solution
 
 A fully functional backend **is provided** for you to use for testing. The backend solution that uses your database is
-`https://competitor-yyyy-solution.sudsy.hu`, where `YYYY` is your four-digit PIN code.
+`https://module-a-Y-solution.sudsy.com`, where `Y` is your workstation number.
 
 There is an extra endpoint that can reset the database to its original state: `DELETE /api/v1/utils/db/reset`  
 Please note that you are not required to implement this endpoint.
@@ -85,7 +85,7 @@ Admin users authenticate using a **username** and **password**. Upon successful 
 - The order of properties in objects does not matter, but the order in an array does.
 - The `Content-Type` header of a request must always be `application/json` for POST, PUT, PATCH.
 - The `Content-Type` header of a response is always `application/json` unless specified otherwise.
-- The given URLs are relative to the base URL of the API: `https://competitor-YYYY-module-a.sudsy.hu/api/v1`.
+- The given URLs are relative to the base URL of the API: `https://module-a-Y.sudsy.com/api/v1`.
 - The token for protected endpoints must be specified as a Bearer token in the `Authorization` header: `Authorization: Bearer <token>`
 - Endpoints starting with `/admin` are protected, except `/admin/login`
 

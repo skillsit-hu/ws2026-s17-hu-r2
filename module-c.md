@@ -1,6 +1,6 @@
 # Module C - Design and frontend
 
-In this module, your task is to develop a **visually engaging and user-friendly website** that showcases Sudsy’s locations and their details. The backend for this module is available at `https://competitor-YYYY-solution.sudsy.hu`, where `YYYY` is your four-digit PIN code.
+In this module, your task is to develop a **visually engaging and user-friendly website** that showcases Sudsy’s locations and their details. The backend for this module is available at `https://module-a-Y-solution.sudsy.com`, where `Y` is your workstation number.
 
 All necessary media assets, icons, and text are provided in the [`assets/module-c`](./assets/module-c/) - you are free to use them as needed.
 
