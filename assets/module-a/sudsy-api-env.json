@@ -5,7 +5,7 @@
   "variables": [
     {
       "key": "apiBase",
-      "value": "https://competitor-YYYY-module-a.sudsy.hu/api/v1",
+      "value": "https://competitor-YYYY-module-a.sudsy.com/api/v1",
       "secret": false
     },
     {

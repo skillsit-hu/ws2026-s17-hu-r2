@@ -1,6 +1,6 @@
 # Module B - Admin
 
-In this module, competitors must develop an **admin** application for Sudsy’s staff, **utilizing the backend** provided at `https://competitor-YYYY-solution.sudsy.hu`, where `YYYY` is the four-digit PIN code. **Do not use the backend you developed in Module A;** instead, use the fully functional backend provided.
+In this module, competitors must develop an **admin** application for Sudsy’s staff, **utilizing the backend** provided at `https://module-a-Y-solution.sudsy.com`, where `Y` is your workstation number. **Do not use the backend you developed in Module A;** instead, use the fully functional backend provided.
 
 ---
 
